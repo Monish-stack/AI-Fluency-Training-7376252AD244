@@ -1,0 +1,116 @@
+========================================================================
+CHAIN-OF-THOUGHT COMPARISON
+========================================================================
+========================================================================
+QUESTION 1: Laptop A costs Rs. 60,000 and has a 10% discount. What is the final price?
+
+--- WITHOUT CoT ---
+The discount amount is  
+
+\[
+10\% \times 60{,}000 = 0.10 \times 60{,}000 = 6{,}000 \text{ rupees}
+\]
+
+Subtracting the discount from the original price:
+
+\[
+60{,}000 - 6{,}000 = 54{,}000 \text{ rupees}
+\]
+
+**Final price:** **Rs. 54,000**.
+
+--- WITH REASONING ---
+**Step‑by‑step calculation**
+
+1. **Original price** of Laptop A = Rs 60,000.  
+
+2. **Discount rate** = 10 %.  
+
+3. **Amount of discount**  
+   \[
+   \text{Discount} = \frac{10}{100}\times 60{,}000
+                  = 0.10 \times 60{,}000
+                  = 6{,}000\ \text{Rs}
+   \]
+
+4. **Final price** after subtracting the discount  
+   \[
+   \text{Final price} = \text{Original price} - \text{Discount}
+                      = 60{,}000 - 6{,}000
+                      = 54{,}000\ \text{Rs}
+   \]
+
+---
+
+**Answer:** The final price of Laptop A after a 10 % discount is **Rs 54,000**.
+========================================================================
+QUESTION 2: Laptop A costs Rs. 60,000 with a 10% discount, while Laptop B costs Rs. 55,000 with a 5% discount. What is the difference between their final prices?
+
+--- WITHOUT CoT ---
+**Step‑by‑step calculation**
+
+| Laptop | List price (Rs.) | Discount % | Discount amount (Rs.) | Final price (Rs.) |
+|--------|------------------|------------|-----------------------|-------------------|
+| A      | 60,000           | 10 %       | 0.10 × 60,000 = **6,000** | 60,000 − 6,000 = **54,000** |
+| B      | 55,000           | 5 %        | 0.05 × 55,000 = **2,750** | 55,000 − 2,750 = **52,250** |
+
+**Difference between final prices**
+
+\[
+54,000 \text{ (Laptop A)} - 52,250 \text{ (Laptop B)} = 1,750 \text{ Rs.}
+\]
+
+---
+
+**Answer:** The final price of Laptop A is Rs. 54,000, the final price of Laptop B is Rs. 52,250, and the difference between them is **Rs. 1,750**.
+
+--- WITH REASONING ---
+**Step‑by‑step calculation**
+
+| Laptop | List price (Rs.) | Discount % | Discount amount (Rs.) | Final price (Rs.) |
+|--------|------------------|------------|-----------------------|-------------------|
+| A      | 60 000           | 10 %       | 10 % × 60 000 = 6 000  | 60 000 − 6 000 = **54 000** |
+| B      | 55 000           | 5 %        | 5 % × 55 000 = 2 750   | 55 000 − 2 750 = **52 250** |
+
+**Difference between the final prices**
+
+\[
+\text{Difference}= 54\,000 - 52\,250 = 1\,750 \text{ rupees}
+\]
+
+---
+
+**Answer:** The final price of Laptop A exceeds that of Laptop B by **Rs. 1,750**.
+========================================================================
+QUESTION 3: What are the RAM and storage specifications of Laptop C?
+
+--- WITHOUT CoT ---
+**Laptop C** comes with:
+
+- **RAM:** 16 GB  
+- **Storage:** 1 TB SSD  
+
+These are the memory and storage specifications for that model.
+
+--- WITH REASONING ---
+I’m happy to pull out the RAM and storage details for **Laptop C**, but I need the specifications you’re working from. Could you please share the table or list of laptop specs (or the part of the problem that describes Laptop C)? Once I have that information I can walk through the calculations step‑by‑step and give you the exact RAM and storage values.
+========================================================================
+QUESTION 4: Which laptop has the lowest discounted price, and what are its RAM and storage specifications?
+
+--- WITHOUT CoT ---
+The laptop with the lowest discounted price is the **Acer Swift 3**.  
+
+- **Discounted price:** $749.99  
+- **RAM:** 8 GB LPDDR5  
+- **Storage:** 512 GB SSD
+
+--- WITH REASONING ---
+I’m happy to work through the calculations for you, but I’ll need the list of laptops (including each laptop’s original price, discount % and its RAM & storage specs) in order to determine which one ends up with the lowest discounted price.
+
+Could you please provide that information? Once I have the data, I’ll:
+
+1. Compute the discounted price for each laptop (Original Price × (1 – Discount %/100)).  
+2. Compare the results to find the minimum.  
+3. Report the RAM and storage specifications of the laptop with that lowest price.
+
+Just paste the table or list here, and I’ll take it from there!
