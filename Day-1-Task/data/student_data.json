@@ -1,0 +1,33 @@
+{
+    "student": {
+        "name": "Arun Kumar",
+        "registration_number": "23AD101",
+        "email": "arun@example.com"
+    },
+    "courses": [
+        {
+            "name": "Python Programming",
+            "fee": 5000,
+            "deadline": "2026-10-05",
+            "status": "Pending"
+        },
+        {
+            "name": "Database Management Systems",
+            "fee": 3500,
+            "deadline": "2026-10-10",
+            "status": "Paid"
+        },
+        {
+            "name": "Data Structures",
+            "fee": 6000,
+            "deadline": "2026-09-30",
+            "status": "Pending"
+        },
+        {
+            "name": "Computer Networks",
+            "fee": 4000,
+            "deadline": "2026-10-15",
+            "status": "Pending"
+        }
+    ]
+}
