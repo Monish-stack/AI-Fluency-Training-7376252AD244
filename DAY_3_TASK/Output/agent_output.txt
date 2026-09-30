@@ -1,0 +1,64 @@
+============================================================       
+LLM WITH ONE TOOL
+============================================================
+Model: openai/gpt-oss-120b
+============================================================
+
+Question:
+What is a library?
+
+Tool Call:
+No tool needed.
+
+Final Answer:
+A **library** is a organized collection of resources—most commonly books, but also magazines, newspapers, journals, audio‑visual materials, digital media, and even access to databases and online services. These resources are curated, cataloged, and madeavailable for people to read, study, research, or enjoy.
+
+Key characteristics of a library include:
+
+| Feature | Description |
+|---------|--------------|
+| **Collection** | A systematic, curated set of items (books, e‑books, videos, etc.) that serve educational, informational, cultural, or entertainment purposes. |
+| **Access** | Materials can be borrowed, consulted on‑site, or accessed digitally, often for free or at a low cost. |
+| **Organization** | Items are cataloged (using systems like the Dewey Decimal Classification, Library of Congress Classification, or modern metadata standards) so users can locate them efficiently. |
+| **Services** | Beyond lending, libraries often provide reference assistance, research help, community programs, internet access, study spaces, and sometimes workshops or events. |
+| **Staff** | Librarians and support personnel manage the collection, help patrons find information, teach information‑literacy skills, and maintain the library’s operations. |
+| **Mission** | To support learning, foster curiosity, preserve knowledge, and provide equitable access to information for allmembers of the community. |
+
+### Types of Libraries
+- **Public libraries**: Serve the general public, often funded by local government.
+- **Academic libraries**: Belong to schools, colleges, or universities and support the curriculum and research of students andfaculty.
+- **School libraries**: Serve K‑12 students and teachers.
+- **Special libraries**: Focus on specific subjects or audiences (e.g., law libraries, medical libraries, corporate libraries,museum libraries).
+
+In essence, a library is a gateway to information and knowledge, enabling individuals and communities to learn, grow, and stayinformed.
+
+------------------------------------------------------------
+
+Question:
+Who wrote the book Clean Code?
+
+Tool Call:
+No tool needed.
+
+Final Answer:
+The book **_Clean Code_** was written by **Robert C. Martin** (often referred to as “Uncle Bob”).
+
+------------------------------------------------------------
+
+Question:
+Is Clean Code currently available in our college library?
+
+Tool Call:
+Function: check_book_availability
+Arguments: {'book_name': 'Clean Code'}
+
+Tool Result:
+Book: Clean Code
+Author: Robert C. Martin
+Available copies: 2
+Status: Available
+
+Final Answer:
+Yes! The library currently has **2 copies** of *Clean Code* by Robert C. Martin available for checkout. Feel free to swing by the library or place a hold online if you’d like to reserve one. Happy reading!
+
+------------------------------------------------------------

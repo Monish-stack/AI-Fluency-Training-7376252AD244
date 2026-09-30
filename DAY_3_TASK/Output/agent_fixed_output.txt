@@ -1,0 +1,49 @@
+============================================================       
+PLAIN LLM - NO TOOL
+============================================================
+Model: openai/gpt-oss-120b
+============================================================
+
+Question:
+What is a library?
+
+Answer:
+A **library** is a collection of resources that you can use to support learning, research, entertainment, or development. The term can refer to several related concepts:
+
+| Context | What “library” means |
+|---------|----------------------|
+| **Physical (public) library** | A building or room that houses books, magazines, newspapers, audio‑visual materials, and sometimes digital media. Patrons can borrow items, read on‑site, use computers, attend programs, and access reference help from librarians. |
+| **Digital/online library** | A website or platform that stores electronic versions of books, articles, datasets, movies, music, software, etc. Users can search, stream, or download items, often through a subscription or institutional access (e.g., JSTOR, Project Gutenberg, your university’s e‑library). |
+| **Software library** | A reusable collection of pre‑written code, functions, classes, or resources that developers incorporate into their own programs. It saves time because you don’t have to reinvent common functionality (e.g., the **Standard Template Library** in C++, **NumPy** for numerical Python, **React** for UI components). |
+| **Media library** | A personal or organizational archive of media files—photos, videos, music, podcasts—organized for easy retrieval (e.g., iTunes library, Lightroom catalog). |
+| **Specialized libraries** | Collections focused on a particular field or type of material, such as a law library, medical library, or corporate research library. |
+
+### Core Features Common to Most Libraries
+1. **Organization & Cataloguing** – Items are systematically indexed (by author, title, subject, etc.) so users can locate them quickly.
+2. **Access & Borrowing** – Users can read, view, or “check out” materials, either physically, digitally, or programmatically (in the case of software).
+3. **Preservation** – Libraries aim to protect the longevity of their collections, using climate‑controlled storage, digital backups, or version control.
+4. **Support Services** – Librarians, curators, or developers provide assistance, instruction, and expertise to help users make the most of the resources.
+5. **Community & Collaboration** – Libraries often host events, workshops, discussion groups, or collaborative projects that foster learning and networking.
+
+### Quick Examples
+- **Public library:** Your city’s main branch where you can borrow the latest bestseller, use free Wi‑Fi, and attend a story‑time session for kids.
+- **University library:** Provides access to scholarly journals, research databases, and study spaces for students and faculty.
+- **Software library:** The **Requests** library in Python lets you easily make HTTP requests without writing low‑level networking code.
+- **Digital media library:** Spotify’s catalog of millions of songs that you can stream on demand.
+
+In essence, a library is any organized repository of resources—whether books, data, code, or media—that people can explore, use, and often take home (physically or virtually) to support their goals.
+------------------------------------------------------------
+
+Question:
+Who wrote the book Clean Code?
+
+Answer:
+The book **“Clean Code”** was written by **Robert C. Martin**, also widely known as “Uncle Bob.”
+------------------------------------------------------------
+
+Question:
+Is Clean Code currently available in our college library?
+
+Answer:
+Sure! Could you let me know which library (or branch) you’re referring to? That way I can check the availability of **Clean Code** for you.
+------------------------------------------------------------

@@ -1,0 +1,4 @@
+Book: Clean Code                                                   
+Author: Robert C. Martin
+Available copies: 2
+Status: Available
