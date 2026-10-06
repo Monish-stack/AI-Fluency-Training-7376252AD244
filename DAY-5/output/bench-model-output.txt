@@ -1,0 +1,66 @@
+========================================================================
+MODEL: openai/gpt-oss-120b
+
+  prompt: Reply with exactly: OK
+    1.0 s |   45 tokens |  46.1 tok/s | load     0.0 ms
+  answer: OK
+
+  prompt: In two sentences, what is an AI agent?
+    1.0 s |  103 tokens |  99.8 tok/s | load     0.0 ms
+  answer: An AI agent is a software entity that perceives its environment through data inputs, processes that information using algorithms (often machine learning), and t
+
+  prompt: A course costs Rs. 18,000 with a 15% scholarship. 
+    1.5 s |  247 tokens | 168.2 tok/s | load     0.0 ms
+  answer: **Step‑by‑step calculation**
+
+| Step | What we do | Calculation | Result |
+|------|------------|-------------|--------|
+| 1 | Find the amount of the scholarship
+
+========================================================================
+MODEL: qwen/qwen3.8-27b
+
+  prompt: Reply with exactly: OK
+    0.6 s |    2 tokens |   3.5 tok/s | load     0.0 ms
+  answer: OK
+
+  prompt: In two sentences, what is an AI agent?
+    0.7 s |   55 tokens |  84.4 tok/s | load     0.0 ms
+  answer: An AI agent is an autonomous system capable of perceiving its environment, making decisions, and taking actions to achieve specific goals without constant human
+
+  prompt: A course costs Rs. 18,000 with a 15% scholarship. 
+    1.2 s |  328 tokens | 279.7 tok/s | load     0.0 ms
+  answer: Here is the step-by-step calculation to determine the payable amount.
+
+### Step 1: Calculate the Scholarship Amount
+First, determine the value of the 15% schola
+
+========================================================================
+MODEL: meta-llama/llama-prompt-guard-2-86m
+
+  prompt: Reply with exactly: OK
+    0.6 s |    0 tokens |   0.0 tok/s | load     0.0 ms
+  answer: 0.0005147623014636338
+
+  prompt: In two sentences, what is an AI agent?
+    0.6 s |    0 tokens |   0.0 tok/s | load     0.0 ms
+  answer: 0.00041882102959789336
+
+  prompt: A course costs Rs. 18,000 with a 15% scholarship. 
+    0.6 s |    0 tokens |   0.0 tok/s | load     0.0 ms
+  answer: 0.00042858676169998944
+
+========================================================================
+MODEL: canopylabs/orpheus-v1-english
+
+  prompt: Reply with exactly: OK
+    0.5 s |    0 tokens |   0.0 tok/s | load     0.0 ms
+  answer: Error or unexpected response: {"error": {"message": "The model `canopylabs/orpheus-v1-english` requires terms acceptance. Please have the org admin accept the t
+
+  prompt: In two sentences, what is an AI agent?
+    0.5 s |    0 tokens |   0.0 tok/s | load     0.0 ms
+  answer: Error or unexpected response: {"error": {"message": "The model `canopylabs/orpheus-v1-english` requires terms acceptance. Please have the org admin accept the t
+
+  prompt: A course costs Rs. 18,000 with a 15% scholarship. 
+    0.5 s |    0 tokens |   0.0 tok/s | load     0.0 ms
+  answer: Error or unexpected response: {"error": {"message": "The model `canopylabs/orpheus-v1-english` requires terms acceptance. Please have the org admin accept

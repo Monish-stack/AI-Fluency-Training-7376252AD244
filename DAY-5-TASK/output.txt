@@ -1,0 +1,85 @@
+======================================================================
+COLLEGE STUDY ASSISTANT - OLLAMA REST API DEMO
+======================================================================
+
+Make sure Ollama is running.
+Using model: college-study-assistant
+
+======================================================================
+
+4. CHECKING LOADED MODELS
+Endpoint: /api/ps
+
+Currently loaded models:
+- college-study-assistant:latest | Size: 1166236712
+
+======================================================================
+
+1. NON-STREAMING TEST
+Endpoint: /api/generate
+Prompt: Explain what an array is in Java for a beginner.
+
+MODEL RESPONSE:
+An array is a collection of elements of the same type stored in contiguous memory locations. In Java, an array is a built-in data type that can hold multiple values of thesame type. Arrays are useful for storing and accessing a collection of values in a structured way.
+
+For example, imagine you have a list of names that you want to store and access. You could use an array to store the names and access them by their index. Here's an example:
+
+```java
+String[] names = {"John", "Jane", "Mike", "Sarah"};
+```
+
+In this example, `names` is an array of strings. The array has four elements, each of which is a string. You can access the elements of the array using their index, which starts at 0. For example, `names[0]` would return "John", `names[1]` would return "Jane", and so on.
+
+Arrays are useful for situations where you need to store and access a collection of values in a structured way. They can be used to store and access a large amount of dataquickly and efficiently. However, they can also be slow to access if you need to access elements that are far from the beginning of the array.
+
+--- PERFORMANCE ---
+Total time measured by Python : 7.44 seconds
+Total duration from Ollama    : 5.41 seconds
+Model load time               : 0.01 seconds
+Generated tokens              : 251
+Tokens per second             : 69.86
+
+======================================================================
+
+2. STREAMING TEST
+Endpoint: /api/generate
+Prompt: Explain the difference between stack and queue in simple terms.
+
+MODEL RESPONSE:
+
+A stack is like a stack of plates. You can only add or remove plates from the top of the stack. You can only add or remove plates from the bottom of the stack. The order of the plates is preserved, and the last plate you added is the first plate you remove.
+
+A queue is like a line of people waiting to get a drink. You can only add people to the end of the line, and you can only serve people from the front of the line. The order of the people in the line is preserved, and the first person in line is the first person to be served.
+
+In programming, stacks are often used to implement functions that need to be called in a specific order, such as a function that needs to print a series of numbers in reverse order. Queues are often used to implement functions that need to wait for input or to process input in a specific order, such as a function that needs to process a series of emails in order of arrival.
+
+--- PERFORMANCE ---
+TTFT                  : 2.10 seconds
+Total time            : 5.19 seconds
+Generated tokens      : 198
+Tokens per second     : 38.12
+
+Note:
+TTFT measures how long it took before the first output appeared.
+Total time measures the complete request duration.
+
+======================================================================
+
+3. OPENAI-COMPATIBLE ENDPOINT TEST
+Endpoint: /v1/chat/completions
+Prompt: I have an exam tomorrow and I am confused about binary search. Explain it.
+
+MODEL RESPONSE:
+A binary search efficiently narrows down a sorted list by repeatedly dividing it into halves until the target element is located or the search range is exhausted. It has atime complexity of O(log n) and is particularly useful when dealing with large, sorted datasets.
+
+Total time: 3.01 seconds
+
+======================================================================
+
+4. CHECKING LOADED MODELS
+Endpoint: /api/ps
+
+Currently loaded models:
+- college-study-assistant:latest | Size: 1166236712
+
+======================================================================

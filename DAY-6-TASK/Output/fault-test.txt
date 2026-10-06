@@ -1,0 +1,75 @@
+==================================================
+COLLEGE TIMETABLE ASSISTANT
+==================================================
+
+Step: 1
+Finish reason: stop
+
+Answer:
+I can assist you with class information. To provide you with the class for your Monday, I will need your specific schedule. Please tell me which class you're interested in, and I'll find out for you.
+
+Step: 1
+Finish reason: stop
+
+Answer:
+To provide the class and room for Wednesday, I need you to specify whether it's a Monday, Tuesday, Wednesday, Thursday, or Friday. Please provide the day you are interested in.
+
+Step: 1
+Finish reason: stop
+
+Answer:
+Since no specific Sunday class is mentioned, assuming your current class schedule runs from Monday to Friday, the class on Sunday would typically be a dayoff or a practice session. I recommend asking your school or campus for specific information or checking any upcoming notices about the break schedule.
+
+Step: 1
+Finish reason: stop
+
+Answer:
+A timetable is a schedule that outlines the classes, lectures, laboratories, and other instructional activities that a student is expected to attend or participate in throughout the duration of their education. Timetables serve as essential educational tools, helping students organize their time effectively and prepare for academic events such as examinations, projects, and practical sessions. They provide guidelines and resources for students to optimize their learning and keep track of upcoming events. In academic settings, timetables are usually accessible through school, university, or college portals, oftenthrough software called a course management system (CMS). Students and educators rely on timetables to plan their schedules, allocate time for extracurricular activities, and ensure that educational commitments are met.
+==================================================
+FAULT INJECTION TEST
+==================================================
+
+Test 1
+Tool: get_class
+Arguments: {"day":"Monday"}
+Result: Data Structures
+
+Test 2
+Tool: get_class
+Arguments: {}
+Result: Missing required argument: day.
+
+Test 3
+Tool: get_class
+Arguments: {"day":"Monday","name":"Monish"}
+Result: Extra argument found. Only day is allowed.
+
+Test 4
+Tool: get_class
+Arguments: {"day":123}
+Result: Wrong type. day must be a string.
+
+Test 5
+Tool: get_class
+Arguments: {"day":"Sunday"}
+Result: Invalid day. Use Monday to Friday.
+
+Test 6
+Tool: get_marks
+Arguments: {"day":"Monday"}
+Result: Unknown tool.
+
+Test 7
+Tool: get_class
+Arguments: {"day":"Monday"
+Result: Invalid JSON arguments.
+
+Test 8
+Tool: get_room
+Arguments: {"day":null}
+Result: Wrong type. day must be a string.
+
+Test 9
+Tool: get_room
+Arguments: {"day":"Monday","room":"A-101"}
+Result: Extra argument found. Only day is allowed.
